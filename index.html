@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beauty Salon Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Beauty Salon Appointments</h1>
+
+<div>
+    <h2>Book a New Appointment</h2>
+    <form action="appointments.php" method="post">
+        <label for="service">Service:</label>
+        <select name="service" id="service">
+            <option value="Haircut">Haircut</option>
+            <option value="Facial">Facial</option>
+            <option value="Manicure">Manicure</option>
+            <option value="Pedicure">Pedicure</option>
+            <option value="Massage">Massage</option>
+        </select>
+
+        <label for="date">Date:</label>
+        <input type="date" name="date" required>
+
+        <label for="time">Time:</label>
+        <input type="time" name="time" required>
+
+        <input type="submit" value="Book Appointment">
+    </form>
+</div>
+
+</body>
+</html>

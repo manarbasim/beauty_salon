@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;  margin: 0;  padding: 0;  background-color: #fad6a5;}
+
+h1 {text-align: center;color: #922b05 ; padding: 20px;}
+h2 {text-align: center;color: #922b05 ; padding: 20px;}
+form {
+    background-color: #fff;
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 19px;
+    color: #6b4423;
+    margin-bottom: 10px;
+    display: red;
+}
+
+form input[type="text"], form input[type="date"], form input[type="time"], form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #af6f09;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #922b05;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #a81c07;
+}
+
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 3px solid #bb7333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #7b3f00;
+    color: #fdd9b5;
+}
+
+tr:nth-child(even) {
+    background-color: #e9d7ab;
+}
+
+tr {
+    background-color: #e9d7ab;
+}
+
+table td, table th {font-size: 19px;}
